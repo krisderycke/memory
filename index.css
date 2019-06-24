@@ -8,9 +8,13 @@ body {
   color: white;
   text-align: center;
 }
+.container {
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 .cardDeck {
-  background-color: black !important;
   height: 150px;
   width: 150px;
   margin: 0.5em;
