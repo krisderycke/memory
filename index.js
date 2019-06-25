@@ -18,5 +18,5 @@ function turn(event) {
 
 function randomize() {
   console.log("pics will be randomized");
-  picArray= [./assets/pics/cat1.jpg, ./assets/pics/cat2.jpg,./assets/pics/cat3.png,./assets/pics/cat4.jpg,./assets/pics/cat5.jpg,./assets/pics/cat6.jpg,./assets/pics/cat7.jpg]
+  var pics = ["cat1", "cat2", "cat3", "cat4", "cat5", "cat6", "cat7"];
 }
