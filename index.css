@@ -34,3 +34,74 @@
   margin: 0.5em;
   padding: 0.5em;
 }
+
+.cat1 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat2 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat3 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat4 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat5 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat6 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat7 {
+  height: 150px;
+  width: 150px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: url(./assets/pics/cat7.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

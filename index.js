@@ -12,9 +12,11 @@ for (i; i < cardsArray.length; i++) {
 }
 
 function turn(event) {
-  event.path[0].className = "cardDeck";
+  var card = event.path[0];
+  card.className = "cardDeck";
 }
 
 function randomize() {
-  alert("pics will be randomized");
+  console.log("pics will be randomized");
+  picArray= [./assets/pics/cat1.jpg, ./assets/pics/cat2.jpg,./assets/pics/cat3.png,./assets/pics/cat4.jpg,./assets/pics/cat5.jpg,./assets/pics/cat6.jpg,./assets/pics/cat7.jpg]
 }
