@@ -2,29 +2,29 @@ window.addEventListener("load", randomize);
 
 //adding click event on all divs with same classname
 
-var cards = document.getElementsByClassName("cardHidden");
-var cardsArray = Array.from(cards);
-var card = event.path[0];
-var i = 0;
+let cards = document.getElementsByClassName("cardHidden");
+let cardsArray = Array.from(cards);
+let pics = ["cat1", "cat2", "cat3", "cat4", "cat5", "cat6", "cat7"];
 
-for (i; i < cardsArray.length; i++) {
+for (let i = 0; i < cardsArray.length; i++) {
   cardsArray[i].addEventListener("click", function() {
     turn(event);
+    console.log("click");
   });
+
+  function turn(event) {
+    var card = event.path[0];
+    // card.className = randomPics;
+  }
 }
 
-function turn(event) {
-  var card = event.path[0];
-  card.className = "cardDeck";
-}
-
+//start randomize function
 function randomize() {
-  console.log("pics will be randomized");
-  var pics = ["cat1", "cat2", "cat3", "cat4", "cat5", "cat6", "cat7"];
-  console.log(pics);
-  //randomize pics
-  randomPics = pics[Math.floor(Math.random() * pics.length)];
-  console.log(randomPics);
-  //add random classname to clicked div
-  card.className = randomPics;
+  let picsDouble = pics.concat(pics);
+  console.log(picsDouble);
+
+  // console.log("pics will be randomized");
+  for (let i = 0; i <= picsDouble.length; i++) {
+    cardsArray[i].className = Math.floor(Math.random() * picsDouble[i]);
+  }
 }
