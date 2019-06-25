@@ -10,10 +10,11 @@ var cardsArray = Array.from(cards);
 var i = 0;
 
 for (i; i < cardsArray.length; i++) {
-  cardsArray[i].addEventListener("click", turn);
+  cardsArray[i].addEventListener("click", function() {
+    turn(event);
+  });
 }
 
-function turn() {
-  console.log(cardsArray[i]);
-  i.style.background = "green";
+function turn(event) {
+  event.path[0].className = "cardDeck";
 }
