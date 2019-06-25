@@ -23,7 +23,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  transition: transform 0.5s;
+  transform: rotateY(180deg);
 }
+
 .cardHidden {
   background: red;
   height: 150px;

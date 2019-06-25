@@ -1,10 +1,6 @@
-// document.addEventListener("click", turn);
-// function turn(e) {
-//   var card = document.querySelector(".cardHidden");
-//   console.log(one);
-//   card.classList.replace("cardHidden", "cardDeck");
-// }
+window.addEventListener("load", randomize);
 
+//adding click event on all divs with same classname
 var cards = document.getElementsByClassName("cardHidden");
 var cardsArray = Array.from(cards);
 var i = 0;
@@ -17,4 +13,8 @@ for (i; i < cardsArray.length; i++) {
 
 function turn(event) {
   event.path[0].className = "cardDeck";
+}
+
+function randomize() {
+  alert("pics will be randomized");
 }
