@@ -25,6 +25,9 @@ struggling quite a bit with trying to add an event on every div with the same Cl
 figured that out now and will start programming the code for the ranomization.
 
 wednesday: lost a day, frustrating day
-Thursday: found my seconds breath and will try to code from scratch again
+Thursday: found my second breath and will try to code from scratch again (EDIT: nevermind the 2nd breath)
+
+
+
 
 
