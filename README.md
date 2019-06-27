@@ -21,6 +21,10 @@ For this assignment we have to make an memory card game, probably well known to 
 
 
 ##Conclusion:
-struggled quite a bit with trying to add an event on every div with the same Classname.
-figured that out now and will start programming the code for the ranomization 
+struggling quite a bit with trying to add an event on every div with the same Classname.
+figured that out now and will start programming the code for the ranomization.
+
+wednesday: lost a day, frustrating day
+Thursday: found my seconds breath and will try to code from scratch again
+
 
